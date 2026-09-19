@@ -1,63 +1,58 @@
 <!DOCTYPE html>
 <html lang="uk">
 
+
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    
-    <!-- Додані стилі для заокруглення навігації -->
-    <style>
-        nav a {
-            margin-left: 10px;
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-            padding: 8px 16px;
-            border-radius: 20px; /* Заокруглюємо краї посилань */
-            transition: background-color 0.3s ease;
-        }
-
-        /* Ефект при наведенні миші на посилання в навігації */
-        nav a:hover {
-            background-color: #0051ba; 
-            color: #fff;
-        }
-    </style>
 </head>
+
 
 <body>
 
-    <header>
-        <img class="logo" src="img/завантаження (2).png" alt="JYSK">
 
-        <nav>
-            <a href="#home">Головна</a>
-            <a href="#products">Товари</a>
-            <a href="#about">Про нас</a>
-        </nav>
+    <header>
+        <img class="logo" src="завантаження (2).png" alt="JYSK">
+
+
+        <ul>
+            <li type="none"><a href="#home">Головна</a></li>
+            <li type="none"><a href="#products">Товари</a></li>
+            <li type="none"><a href="#about">Про нас</a></li>
+        </ul>
     </header>
+
 
     <section id="home" class="hero">
         <h2>Затишок з JYSK</h2>
         <p>Меблі та товари для дому</p>
 
+
         <button onclick="showText()">Дізнатися більше</button>
     </section>
+
 
     <section id="products">
         <h2>Товари</h2>
 
+
         <div class="products">
+
 
             <div class="card">
                 <h3>Ліжко</h3>
 
+
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDU-ii8qvAW7uWD7t-njqET8hRrfCUIKFds79h_BBfSQ&s=10">
+
 
                 <p>Зручне ліжко для спальні</p>
 
+
                 <b>8999 грн</b>
 
+
                 <br><br>
+
 
                 <button onclick="buyProduct('Ліжко')">
                     Купити
@@ -65,16 +60,23 @@
             </div>
 
 
+
+
             <div class="card">
                 <h3>Диван</h3>
 
+
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHvDaOotE9MNz5SxiK_YXhnqFfp14QGgzre3z3eSyewA&s=10">
+
 
                 <p>Зручний диван для відпочинку</p>
 
+
                 <b>15999 грн</b>
 
+
                 <br><br>
+
 
                 <button onclick="buyProduct('Диван')">
                     Купити
@@ -82,35 +84,50 @@
             </div>
 
 
+
+
             <div class="card">
                 <h3>Лампа</h3>
 
+
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuAqKm8OQ95Ea1S0gu8npHKCsapFhpDgmSEKZw23_OSg&s">
+
 
                 <p>Красива лампа для кімнати</p>
 
+
                 <b>1499 грн</b>
 
+
                 <br><br>
+
 
                 <button onclick="buyProduct('Лампа')">
                     Купити
                 </button>
             </div>
 
+
         </div>
     </section>
 
 
+
+
     <section id="about" class="about">
 
+
         <h2>Про JYSK</h2>
+
 
         <p>
             JYSK — магазин меблів та товарів для дому.
         </p>
 
+
     </section>
+
+
 
 
     <footer>
@@ -118,7 +135,10 @@
     </footer>
 
 
+
+
     <script src="script.js"></script>
+
 
 </body>
 </html>
