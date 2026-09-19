@@ -4,59 +4,63 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: Arial, sans-serif;
     background-color: #0061a8;
     color: white;
 }
 
+
 header {
     background-color: #004f91;
     padding: 20px;
 }
 
+
 .logo {
-    display: inline-block;
-    background-color: white;
-    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid white;
     color: #00549f;
     font-size: 45px;
     font-weight: bold;
-    padding: 10px 30px;
     border-radius: 5px;
-    margin-bottom: 15px;
 }
 
-nav {
-    margin-top: 10px;
-    text-align: right;
-}
 
-nav a {
-    color: white;
+ul{
     text-decoration: none;
-    font-size: 18px;
-    margin: 0 15px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: space-evenly;
 }
 
-nav a:hover {
-    color: #000000;
-    font: size 40px;
+
+a{
+    text-decoration: none;
+    color: aliceblue;
 }
+
 
 .hero {
     text-align: center;
     padding: 100px 20px;
 }
 
+
 .hero h1 {
     font-size: 50px;
     margin-bottom: 20px;
 }
 
+
 .hero p {
     font-size: 22px;
 }
+
 
 .button {
     display: inline-block;
@@ -70,15 +74,18 @@ nav a:hover {
     border:3px solid #00549f;
 }
 
+
 .logo {
     border-radius: 15px;
     text-align: left;
 }
 
+
 .card {
     border-radius: 20px;
     overflow: hidden;
 }
+
 
 .card img {
     border-radius: 15px;
@@ -87,12 +94,14 @@ nav a:hover {
     object-fit: cover;
 }
 
+
 button {
     border: none;
     border-radius: 15px;
     padding: 12px 25px;
     cursor: pointer;
 }
+
 
 button:hover {
     border-radius: 25px;
@@ -101,12 +110,19 @@ button:hover {
     background-color: #000000;
 }
 
+
+#products h2 {
+    text-align: center;
+}
+
+
 .products {
     display: flex;
     justify-content: center;
     gap: 25px;
     padding: 50px 20px;
 }
+
 
 .product {
     background-color: white;
@@ -117,10 +133,17 @@ button:hover {
     border-radius: 10px;
 }
 
+
 .product h3 {
     color: #00549f;
     margin-bottom: 10px;
 }
+
+
+.about{
+    text-align: center;
+}
+
 
 footer {
     background-color: #00457f;
